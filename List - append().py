@@ -1,0 +1,6 @@
+List=input("Enter the List element:")
+List=eval(List)
+Append=input("Enter the Element to Append:")
+Append=eval(Append)
+List.append(Append)
+print(List)
