@@ -1,0 +1,6 @@
+List=input("Enter the List elements:")
+Concatinate=input("En ther the element to Concatenate:")
+List=eval(List)
+Concatinate=eval(Concatinate)
+output=(List+Concatinate)
+print(output)
