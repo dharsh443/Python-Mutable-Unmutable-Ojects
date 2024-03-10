@@ -1,0 +1,6 @@
+List=input("Enter the List Elements:")
+List=eval(List)
+Element=input("Enter the Element to be removed:")
+Element=eval(Element)
+List.remove(Element)
+print(List)
