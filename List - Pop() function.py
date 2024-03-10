@@ -1,0 +1,5 @@
+List=input("Enter the List Elements:")
+List=eval(List)
+POP=int(input("Enter the IndexToBe Poped:"))
+List.pop(POP)
+print(List)
