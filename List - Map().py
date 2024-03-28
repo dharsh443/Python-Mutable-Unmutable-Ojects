@@ -1,0 +1,5 @@
+Num=eval(input("Enter the Number:"))
+Even=list(filter(lambda N:N%2==0,Num))
+Double=list(map(lambda N:N*2,Even))
+print(Even)
+print(Double)
