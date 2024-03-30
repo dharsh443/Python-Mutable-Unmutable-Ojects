@@ -1,0 +1,6 @@
+Value1=input("Enter the Value !:").split()
+Value2=input("Enter the Value 2:").split()
+Value1=tuple(Value1)
+Value2=tuple(Value2)
+Output=list(zip(Value1, Value2))
+print(Output)
