@@ -1,0 +1,6 @@
+Value=input("Enter the Value seperatedby space:")
+Value=Value.split()
+combine=set(Value)
+Adding=input("Enter the Value to be Added:")
+combine.add(Adding)
+print(combine)
