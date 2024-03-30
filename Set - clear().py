@@ -1,0 +1,5 @@
+value=input("Enter the Value:")
+value=value.split()
+out=set(value)
+put=out.clear()
+print(out)
