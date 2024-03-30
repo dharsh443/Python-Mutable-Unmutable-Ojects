@@ -1,0 +1,6 @@
+value=input("Enter the Value:")
+value=value.split()
+out=set(value)
+Remove=input("Enter the value to be Removed:")
+out.remove(Remove)
+print(out)
