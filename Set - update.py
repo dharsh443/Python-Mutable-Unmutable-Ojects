@@ -1,0 +1,7 @@
+value=input("Enter the Value:")
+value=value.split()
+out=set(value)
+updation=input("Enter the value to be updated:")
+updation=updation.split()
+out.update(updation)
+print(out)
